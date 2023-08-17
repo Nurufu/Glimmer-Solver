@@ -3,7 +3,7 @@ from PIL import ImageGrab, Image
 import cv2
 
 count = 0
-thresh = 0.75
+thresh = 0.65
 nms_thres = 0.9
 tiles = []
 gameboard = [
