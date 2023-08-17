@@ -13,7 +13,7 @@ Setup guide currently only includes Windows. If anyone would like to add instruc
 6. Type `pip install -r requirements.txt` into command prompt to install the depencies needed to run the script
 
 ## Usage Guide
-
+For best results, keep your web browser at default zoom level  
 1. Open the folder you extracted the zip to and open the command prompt
 2. Start a game of Glimmer &amp; Gloom on the very hard difficulty
 3. Make sure the Glimmer &amp; Gloom game window is not blocked by any other windows (See demonstration clip for an example)
