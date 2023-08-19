@@ -140,7 +140,15 @@ row7 = 0
 row8 = 0
 row9 = 0
 
-
+#Check tile count
+if len(tiles) > 61:
+    print("Error: Too many board tiles detected. This will cause inaccurate results.")
+    print("The script has been stopped. Please raise the thresh value before running again.")
+    exit()
+elif len(tiles) < 61:
+    print("Error: Not enough board tiles detected. This will cause inaccurate results.")
+    print("The script has been stopped. Please lower the thresh value before running again.")
+    exit()
 
 #Convert tiles to gameboard
 while count < len(tiles):
