@@ -33,8 +33,12 @@ If you recieve an error, check the troubleshooting guide below
 ![image](https://github.com/dcom365/Glimmer-Solver/assets/10088267/b9875569-6a40-4501-8584-3fcba31d2998)
 
 ### Not enough tiles detected  
-![image](https://github.com/dcom365/Glimmer-Solver/assets/10088267/32c46425-683b-4718-a001-6c7b974c0c35)
+![image](https://github.com/dcom365/Glimmer-Solver/assets/10088267/32c46425-683b-4718-a001-6c7b974c0c35)  
 1. Right click solver.py and click on edit to open it in a text editor
 2. Near the top of the file you will see a line that says `thresh = 0.65`
 3. To decrease the threshold, all you need to do is decrease the 0.65, I recommend decreasing it by 0.05-0.1 until you do not recieve an error.
 ![image](https://github.com/dcom365/Glimmer-Solver/assets/10088267/bc45904a-fc2c-4b42-b9c9-5c70c0d54653)
+
+### Additional Troubleshooting  
+As the results of the script can vary between monitors and resolutions a final solution would be to re-make the template images the script uses to find the tiles. I made a very short video guide on how to make your own template images to hopefully improve the accuracy and consistency of the script on your specific setup.  
+[Video Guide Here](https://youtu.be/gMC-Y56MNq4)
